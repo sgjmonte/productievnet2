@@ -16,6 +16,20 @@
         "description": "Address prefix"
       }
     },
+    "subnet4Prefix": {
+      "type": "string",
+      "defaultValue": "10.0.5.0/16",
+      "metadata": {
+        "description": "Subnet 4 Prefix"
+      }
+    },
+    "subnet4Name": {
+      "type": "string",
+      "defaultValue": "Subnet4",
+      "metadata": {
+        "description": "Subnet 4 Name"
+      }
+    },
     "subnet2Prefix": {
       "type": "string",
       "defaultValue": "10.0.1.0/24",
