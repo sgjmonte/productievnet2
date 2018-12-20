@@ -18,7 +18,7 @@
     },
     "subnet4Prefix": {
       "type": "string",
-      "defaultValue": "10.0.5.0/16",
+      "defaultValue": "10.0.5.0/24",
       "metadata": {
         "description": "Subnet 4 Prefix"
       }
