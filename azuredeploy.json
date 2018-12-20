@@ -114,6 +114,18 @@
           "properties": {
             "addressPrefix": "[parameters('subnet3Prefix')]"
           }
+        },
+        {
+          "apiVersion": "2018-06-01",
+          "type": "subnets",
+          "location": "[parameters('location')]",
+          "name": "[parameters('subnet4Name')]",
+          "dependsOn": [
+            "[parameters('vnetName')]"
+          ],
+          "properties": {
+            "addressPrefix": "[parameters('subnet4Prefix')]"
+          }
         }
       ]
     }
