@@ -16,18 +16,18 @@
         "description": "Address prefix"
       }
     },
-    "subnet4Prefix": {
+    "subnet5Prefix": {
       "type": "string",
       "defaultValue": "10.0.5.0/24",
       "metadata": {
-        "description": "Subnet 4 Prefix"
+        "description": "Subnet 5 Prefix"
       }
     },
-    "subnet4Name": {
+    "subnet5Name": {
       "type": "string",
-      "defaultValue": "Subnet4",
+      "defaultValue": "Subnet5",
       "metadata": {
-        "description": "Subnet 4 Name"
+        "description": "Subnet 5 Name"
       }
     },
     "subnet2Prefix": {
@@ -119,12 +119,12 @@
           "apiVersion": "2018-06-01",
           "type": "subnets",
           "location": "[parameters('location')]",
-          "name": "[parameters('subnet4Name')]",
+          "name": "[parameters('subnet5Name')]",
           "dependsOn": [
             "[parameters('vnetName')]"
           ],
           "properties": {
-            "addressPrefix": "[parameters('subnet4Prefix')]"
+            "addressPrefix": "[parameters('subnet5Prefix')]"
           }
         }
       ]
